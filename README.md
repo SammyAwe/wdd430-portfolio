@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Samuel Awe – Developer Portfolio
 
-## Getting Started
+Welcome to my developer portfolio! This project was built with Next.js and TypeScript as part of my WDD 430 coursework.
 
-First, run the development server:
+## Live Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[View My Portfolio](https://wdd430-portfolio-seven-pi.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a personal portfolio website showcasing my background, technical skills, and software development projects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Built With
 
-## Learn More
+- Next.js
+- TypeScript
+- React
+- Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Responsive homepage introducing me and my work
+- About page with my development journey and technical skills
+- Reusable components for the header, footer, project cards, and skills
+- Project cards with links to my projects
+- API route at `/api/hello`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Pages and Routes
 
-## Deploy on Vercel
+| Route | Description |
+|---|---|
+| `/` | Portfolio homepage |
+| `/about` | About me and technical skills |
+| `/api/hello` | Sample API endpoint |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Run Locally
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/SammyAwe/wdd430-portfolio.git
+   ```
+
+2. Enter the project directory:
+
+   ```bash
+   cd wdd430-portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Author
+
+**Samuel Awe**
+
+GitHub: [SammyAwe](https://github.com/SammyAwe)
