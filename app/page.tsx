@@ -7,14 +7,14 @@ const projects = [
     description:
       "An interactive trivia application that retrieves questions from the Open Trivia Database API. It allows users to answer questions, track their progress, and restart the game.",
     technologies: ["JavaScript", "HTML", "CSS", "OpenTDB API"],
-    link: "",
+    link: "https://trivia-game-repo.onrender.com",
   },
   {
     title: "Pet Pregnancy Tracker",
     description:
       "A web application designed to help dog and cat owners monitor pregnancy progress, track weight changes, manage whelping checklists, and record puppy or kitten counts.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    link: "",
+    link: "https://pet-pregnancy-tracker.onrender.com",
   },
   {
     title: "CSE 341 Books API",
